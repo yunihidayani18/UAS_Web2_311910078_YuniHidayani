@@ -43,6 +43,10 @@ E-Inventory merupakan aplikasi berbasis web yang digunakan untuk mengelola data 
 ![401 Unauthorized](Screenshoot/postman401.png)
 
 #  Tampilan Aplikasi
+
+## Halaman Home
+![Home](Screenshoot/Home.png)
+
 ## Halaman Login
 ![Login](Screenshoot/Login.png)
 
@@ -66,6 +70,9 @@ E-Inventory merupakan aplikasi berbasis web yang digunakan untuk mengelola data 
 
 ## Laporan
 ![Laporan](Screenshoot/Laporan.png)
+
+## Cetak Laporan
+![Cetak Laporan](Screenshoot/cetaklaporan.png)
 
 #  Cara Menjalankan Backend
 
