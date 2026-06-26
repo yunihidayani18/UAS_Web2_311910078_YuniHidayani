@@ -37,7 +37,7 @@ E-Inventory merupakan aplikasi berbasis web yang digunakan untuk mengelola data 
 - TailwindCSS
 
 #  Relasi Database
-![Relasi Database](Screenshoot/skemadatabse.png)
+![Relasi Database](Screenshoot/skemadatabase.png)
 
 #  Uji API Unauthorized (401)
 ![401 Unauthorized](Screenshoot/postman401.png)
