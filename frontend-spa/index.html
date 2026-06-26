@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Inventory</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Vue -->
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+
+    <!-- Vue Router -->
+    <script src="https://unpkg.com/vue-router@4"></script>
+
+    <!-- Axios -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</head>
+
+<body class="bg-gradient-to-br from-blue-100 to-gray-100">
+<div id="app">
+
+    <nav class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between">
+
+            <h1 class="font-bold">
+                E-Inventory
+            </h1>
+
+            <div>
+                <router-link
+                    to="/"
+                    class="mr-4"
+                >
+                    Home
+                </router-link>
+
+                <router-link
+                    to="/login"
+                >
+                    Login
+                </router-link>
+            </div>
+
+        </div>
+    </nav>
+
+    <router-view></router-view>
+
+</div>
+
+<script src="components/Home.js"></script>
+<script src="components/Login.js"></script>
+<script src="components/Dashboard.js"></script>
+<script src="components/Barang.js"></script>
+<script src="components/Kategori.js"></script>
+<script src="components/Supplier.js"></script>
+<script src="components/BarangMasuk.js"></script>
+<script src="components/BarangKeluar.js"></script>
+<script src="components/Laporan.js"></script>
+
+<script src="router.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
